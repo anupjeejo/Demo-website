@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>yoooo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="nav">
+            <a href="index.html" target="_blank">index page</a> |
+            <a href="about.html" target="_blank">about page</a> |
+            <a href="contacts.html" target="_blankf">contact us</a>
+        </div>
+
+        <div id="content">
+                <h1 id="title">index page</h1>
+                
+                <h1 style="color: rgb(14, 240, 210)">hello world</h1>
+                <p class="info">fasjdnfkjsdabkfjsndkjfnasjdkfsdajkfa</p>
+                <p>sadjfkljsdflk;asjdfklsdajfalks</p>
+
+                <ul>
+                    <li class="info">dasdasd</li>
+                    <li>sadasdgg</li>
+                </ul>
+
+                <ol>
+                    <li>sadsasdaas</li>
+                </ol>
+
+                <img src="img/hello_world.jpg" alt="" class="dp">
+                <img src="img/hello_world.jpg" alt="" class="dp">
+                <img src="img/hello_world.jpg" alt="" class="dp">
+
+                <p>sadjfkljsdflk;asjdfklsdajfalks</p>
+                <p>kdlsa;dsalkd;aasda;'sad;</p>
+                <p id="p1">pwkeoqwpmazxmaskdl;askd;lsamxalskd;laskd</p>
+
+                <button type="button" class="btn btn-primary" onclick="buttonclicked()">click here</button>
+                <button type="button" class="btn btn-danger" onclick="clicktochangetext()">click to change text</button>
+                <button type="button" class="btn btn-info" id="hidetitle" >click to hide title </button>
+        </div>
+
+        <div id="footer">
+            
+        </div>
+    </div>
+   
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+       <script>
+          $(function(){
+              $('#hidetitle').click(function(){
+              $('#title').toggle();
+           })
+          })
+       </script>
+    
+  </body>
+
+
+</html>

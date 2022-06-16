@@ -1,0 +1,38 @@
+p { color: red;}
+
+h1 { 
+    color: blue ;
+     font: italic;
+}
+
+#title {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.info{
+    color: blueviolet;
+}
+
+.dp{
+    width: 300px;
+    height: 300px;
+}
+
+#tb
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    border-collapse:  collapse;
+}
+
+#tb th{
+    background-color: red;
+    color: #ddd;
+}
+
+#tb td, #tb th {
+    border: 1px solid #ddd;
+   padding: 8px;
+}
