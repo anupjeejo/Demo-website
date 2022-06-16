@@ -1,5 +1,3 @@
-p { color: red;}
-
 h1 { 
     color: blue ;
      font: italic;
@@ -35,4 +33,13 @@ h1 {
 #tb td, #tb th {
     border: 1px solid #ddd;
    padding: 8px;
+}
+
+.slidesimg{
+    height: 800px;
+}
+
+.slidep
+{
+    color: white;
 }
