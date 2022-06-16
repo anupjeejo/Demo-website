@@ -1,9 +1,15 @@
-function buttonclicked()
-{
-    alert("button clicked");
-}
+$(function(){
+ var pages = ['index' , 'about' , 'contacts'];
+ var pathname = window.location.pathname;
 
-function clicktochangetext()
-{
-    document.getElementById('p1').innerHTML = "text changed";
-}
+ $('.nav-link').each(function(i){
+    if(pathname.includes(pages[i])){
+        $(this).addClass('active');
+        $(this).attr('aria-current', 'page');
+    }
+    else if(this.className.includes('active'))
+    {
+        $(this).removeClass('active');
+    }
+ });    
+});
